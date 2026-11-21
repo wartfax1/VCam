@@ -7,8 +7,7 @@ BUNDLE_NAME = VCamSettings
 
 VCamSettings_FILES = VCamRootListController.m
 VCamSettings_INSTALL_PATH = /Library/PreferenceBundles
-VCamSettings_FRAMEWORKS = UIKit
-VCamSettings_PRIVATE_FRAMEWORKS = Preferences
+VCamSettings_FRAMEWORKS = UIKit Preferences
 VCamSettings_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/bundle.mk
